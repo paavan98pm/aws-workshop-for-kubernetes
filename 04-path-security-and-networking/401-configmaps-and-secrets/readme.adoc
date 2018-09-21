@@ -678,7 +678,7 @@ This shows that the Java application has been able to read both the NAME and GRE
 
 == Secrets using AWS Secrets Manager
 
-In this section, we will create a secret using https://aws.amazon.com/secrets-manager/[AWS Secrets Manager] in the region of choice, and access the secret in a Node.js application deployed within Kubernetes pod. AWS Secrets Manager is available in https://docs.aws.amazon.com/general/latest/gr/rande.html#asm_region[most AWS regions].
+In this section, we create a secret using https://aws.amazon.com/secrets-manager/[AWS Secrets Manager] in the region of choice, and access the secret in a Node.js application deployed within Kubernetes pod. AWS Secrets Manager is available in https://docs.aws.amazon.com/general/latest/gr/rande.html#asm_region[most AWS regions].
 
 AWS Secrets Manager enables you to easily rotate, manage, and retrieve database credentials, API keys, and other secrets throughout their lifecycle. The service integrates with KMS, which uses a https://aws.amazon.com/blogs/security/aws-key-management-service-now-offers-fips-140-2-validated-cryptographic-modules-enabling-easier-adoption-of-the-service-for-regulated-workloads/[FIPS 140-2 validated Hardware Security Module], to provide robust key management controls to secure the secret. AWS Secrets Manager also integrates with AWS IAM and AWS CloudTrail to provide fine-grained access, audit and alerting integration.
 
